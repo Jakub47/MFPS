@@ -7,9 +7,9 @@ namespace MFPS.UI
 {
     public class CloseCurrentSceneAsync : MonoBehaviour
     {
-       public void CloseScene()
+       public void CloseScene(string scene)
         {
-            SceneManager.UnloadSceneAsync("Alerts");
+            SceneManager.UnloadSceneAsync(scene);
         }
     }
 }
